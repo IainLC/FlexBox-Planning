@@ -1,0 +1,38 @@
+/* All flexbox items will be the same height, on one row and be responsive - the main benifit is you can style the flexbox container without
+having to style the individual items
+
+flexbox-container: Checklist of properties to cover:
+display, flex-wrap, justify-content, alight-items, align-content, flex direction 
+(flex direction,justify-content and align items are my preference because they can handle rows along the main and cross axis)
+
+.flexbox-items are used to override container styles
+Flexbox items checklist:
+flex-shrink, flex-grow (the affect of width) flex-basis,  align-self - to override the cross axis alignment, order(not advised for screenreaders).
+
+
+Shorthand:  flex:0 0 0;   [L-r grow shrink basis]
+*/
+
+.flexbox-container{
+    display: flex; 
+}
+
+.flexbox-item{
+    width:200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+/* Flexbox items can be copied and pasted, uncomment examples used in index.html */
+.flexbox-item-1 {
+    min-height:100px;
+}
+
+.flexbox-item-2 {
+    min-height:100px;
+}
+
+.flexbox-item-3 {
+    min-height:100px;
+}
