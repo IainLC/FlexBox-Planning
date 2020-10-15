@@ -1,9 +1,8 @@
 # FlexBox-Planning
-The material used to tutor CSS flexbox containers.
+The material I use to tutor CSS flexbox containers.
 Name: CSS Grid Planning
 App link: local only
 
-Lesson material for  teaching the fundamentals of CSS flexbox 
 This is lesson 1/2 teaching CSS layouts
 Lesson 2/2 can be found here: https://github.com/IainLC/CSS-Grid-Planning
 
